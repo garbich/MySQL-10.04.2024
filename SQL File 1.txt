@@ -127,15 +127,14 @@ use testdb;
 -- group by city;
 
 -- Task 12
-select avg(age) as avg_age
-from users
-where email not like'%gmail%'
-group by email
-;
+-- select avg(age) as avg_age
+-- from users
+-- where email not like'%gmail%'
+-- group by email
+-- ;
 
 -- Task 13
-select max(age)
-from users
-where city = "Dnipro";
-
+-- select max(age)
+-- from users
+-- where city = 'Dnipro' and gender = 'Male' and email like '%ukr.net';
 
