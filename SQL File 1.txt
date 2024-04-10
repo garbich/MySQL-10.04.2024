@@ -133,5 +133,9 @@ where email not like'%gmail%'
 group by email
 ;
 
+-- Task 13
+select max(age)
+from users
+where city = "Dnipro";
 
 
